@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav div ul{     
     list-style-type: none;
     text-align: right; 
@@ -23,11 +27,65 @@ main{
     align-items: center;
     justify-content: center;   
     position: relative;
-}
-#search{
-    width: 584px;
+    padding-top: 200px;
 }
 
+#search{
+    width: 584px;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid lightgray;
+    padding-left: 40px;
+    background-color: transparent;
+    margin: 30px;
+    padding-right:10px;
+    font-size: 16px;
+    vertical-align: top;
+}
+#search:hover {
+    box-shadow: 0 1px 6px rgba(0,0,0,0.22);
+}
+
+#search:focus{
+    outline: none;
+}
+form div span{
+    color: rgba(0,0,0,0.47);
+    position: absolute;
+    padding: 40px 45px;
+    font-size: 10px;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.default-search{
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px 18px;
+    font-size: 14px;
+    text-align: center;
+    margin: 11px 4px;
+    border-radius: 6px;
+}
+.optional-search{
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px 18px;
+    font-size: 14px;
+    text-align: center;
+    margin: 11px 4px;
+    border-radius: 6px;
+}
+.location-tag{
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 30;
+    left: 0;
+    right: 0;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
 footer{
     background-color: #f3f3f3;
     position: absolute;
