@@ -80,17 +80,40 @@ form div span{
 .location-tag{
     background-color: #f3f3f3;
     position: absolute;
-    bottom: 30;
+    bottom: 43;
     left: 0;
     right: 0;
-    padding: 15px 30px;
+    padding: 0 33px;
     border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    text-align: left;
+    z-index: 1;
+    color: rgba(0,0,0,0.55)
 }
 footer{
     background-color: #f3f3f3;
     position: absolute;
-    padding: 5px;
+    padding: 12px 20px;
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.alignright{
+    float: right;
+}
+.alignright a{
+    padding: 13px;
+    font-size: 15px;
+    color:rgba(0,0,0,0.55)
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignleft a{
+    padding: 13px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.55)
 }
