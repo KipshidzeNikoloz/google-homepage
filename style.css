@@ -11,8 +11,28 @@ li {
     padding: 10px;
     vertical-align: middle;
   }
+
 a{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
+}
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    position: relative;
+}
+#search{
+    width: 584px;
+}
+
+footer{
+    background-color: #f3f3f3;
+    position: absolute;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
